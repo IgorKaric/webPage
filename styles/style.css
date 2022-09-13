@@ -1,0 +1,145 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.desno{
+    text-align: end;
+}
+.nesto{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: baseline;
+}
+.content{
+    padding-bottom: 50px;
+}
+li{
+    list-style-type: square;
+}
+progress {
+
+    margin-left: 20px;
+  
+    margin-right: 20px;
+  
+    height: 10px;
+  
+    accent-color: rgb(76,112,55) !important;
+  
+    margin-bottom: 4px;
+  
+  }
+.paragraf1{
+    padding-left: 100px;
+    margin-left: 100px;
+}
+
+.paragraf2{
+    padding-left: 350px;
+    margin-left: 200px;
+}
+
+a:link{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+a:active{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color:black;
+    text-decoration: none;
+}
+
+.glavnaVertikala{
+    height: 100vh;
+    width: 1px;
+    border: 2px solid rgba(76, 112, 55, 0.411);
+    position: relative;
+}
+
+.krugPrvi{
+    border-radius: 50%;
+    position: absolute;
+    border: 7px solid rgb(76,112,55);
+    top: -7px;
+    left: 21px;
+}
+.krugDrugi{
+    border-radius: 50%;
+    position: absolute;
+    border: 7px solid rgb(76,112,55);
+    top: -7px;
+    left: 21px;
+}
+.krugTreci{
+    border-radius: 50%;
+    position: absolute;
+    border: 7px solid rgb(76,112,55);
+    top: -7px;
+    left: -9px;
+}
+.krugCetvrti{
+    border-radius: 50%;
+    position: absolute;
+    border: 7px solid rgb(76,112,55);
+    top: -7px;
+    left: 21px;
+}
+.krugPeti{
+    border-radius: 50%;
+    position: absolute;
+    border: 7px solid rgb(76,112,55);
+    top: -7px;
+    left: -9px;
+}
+.crtaPrvaLeva{
+    position: absolute;
+    border: 2px solid rgba(76, 112, 55, 0.411);
+    width: 30px;
+    top: 10px;
+    right: 0px;
+}
+.crtaDrugaLeva{
+    position: absolute;
+    border: 2px solid rgba(76, 112, 55, 0.411);
+    width: 30px;
+    right: 0px;
+    top: 217px;
+}
+.crtaTrecaLeva{
+    position: absolute;
+    border: 2px solid rgba(76, 112, 55, 0.411);
+    width: 30px;
+    right: 0px;
+    top: 480px;
+}
+.crtaPrvaDesna{
+    position: absolute;
+    border: 2px solid rgba(76, 112, 55, 0.411);
+    width: 30px;
+    top: 10px;
+}
+.crtaDrugaDesna{
+    position: absolute;
+    border: 2px solid rgba(76, 112, 55, 0.411);
+    width: 30px;
+    top: 270px;
+}
+.crtaTrecaDesna{
+    position: absolute;
+    border: 2px solid rgba(76, 112, 55, 0.411);
+    width: 30px;
+    top: 600px;
+}
+
+
+
+
